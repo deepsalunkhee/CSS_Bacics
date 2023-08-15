@@ -1,0 +1,18 @@
+.container1 {
+    background-color: black;
+    height: calc(100vh - 10px); /* Subtract the border width from the height */
+    width: calc(100% ); /* Subtract the border width from the width */
+    border: 5px solid rgb(255, 255, 255);
+    box-sizing: border-box; /* Include padding and border in the dimensions */
+    border-radius: 5px;
+    margin: 0px 0px 5px 0px;
+  }
+
+  .ball {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  

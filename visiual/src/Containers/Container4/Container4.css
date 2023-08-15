@@ -1,0 +1,31 @@
+.card{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: rgb(111, 210, 240);
+    margin: 100px;
+    
+    transition: width 2s, height 2s, transform 2s ;
+    justify-content: center;
+    justify-self: center;
+    
+    
+}
+
+.card:hover{
+    height: 300px;
+    width: 300px;
+    transform: rotate(360deg);
+    
+
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid white;
+    justify-content: center;
+   
+    width: calc(100% ); /* Subtract the border width from the width */
+}
